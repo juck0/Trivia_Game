@@ -1,7 +1,6 @@
 package com.example.triviagame
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.triviagame.R
 import com.example.triviagame.databinding.ActivityMainBinding
 import com.example.triviagame.ui.HomeFragment
 

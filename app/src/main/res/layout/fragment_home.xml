@@ -45,20 +45,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_question" />
 
+
     <TextView
         android:id="@+id/text_question_description"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="200dp"
-        android:text="Your question will be here "
-        android:textColor="@color/white"
+        android:layout_marginTop="168dp"
         android:background="@drawable/shape_choice"
         android:gravity="center"
+        android:text="Your question will be here "
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <RadioGroup
         android:id="@+id/radioGroup"

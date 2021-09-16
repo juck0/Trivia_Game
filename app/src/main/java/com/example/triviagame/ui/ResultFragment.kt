@@ -38,9 +38,6 @@ class ResultFragment: BaseFragment<FragmentResultBinding>() {
             .addToBackStack(null)
             .commit()
     }
-
-
-
     override fun addCallBack() {
     }
 }
