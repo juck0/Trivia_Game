@@ -1,4 +1,4 @@
-package com.example.triviagametask.ui
+package com.example.triviagame.ui
 
 import android.os.Bundle
 import android.util.Log
