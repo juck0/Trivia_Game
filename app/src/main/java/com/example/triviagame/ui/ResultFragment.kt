@@ -1,9 +1,10 @@
 import android.view.LayoutInflater
-import com.example.triviagametask.R
-import com.example.triviagametask.data.Constants
-import com.example.triviagametask.databinding.FragmentResultBinding
-import com.example.triviagametask.ui.BaseFragment
-import com.example.triviagametask.ui.HomeFragment
+import com.example.triviagame.R
+import com.example.triviagame.data.Constants
+import com.example.triviagame.databinding.FragmentResultBinding
+import com.example.triviagame.ui.BaseFragment
+import com.example.triviagame.ui.HomeFragment
+
 
 class ResultFragment: BaseFragment<FragmentResultBinding>() {
     override val LOG_TAG: String = "result fragment"

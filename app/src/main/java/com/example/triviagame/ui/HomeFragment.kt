@@ -1,19 +1,17 @@
-package com.example.triviagametask.ui
-
+package com.example.triviagame.ui
 import ResultFragment
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.TextView
-import com.example.triviagametask.R
-import com.example.triviagametask.data.Constants
-import com.example.triviagametask.data.TriviaQuestion
-import com.example.triviagametask.databinding.FragmentHomeBinding
+import com.example.triviagame.R
+import com.example.triviagame.data.Constants
+import com.example.triviagame.data.TriviaQuestion
+import com.example.triviagame.databinding.FragmentHomeBinding
 import com.google.gson.Gson
 import okhttp3.*
 import java.io.IOException
 import kotlin.system.exitProcess
-
 class HomeFragment: BaseFragment<FragmentHomeBinding>() {
     private val client = OkHttpClient()
     var index:Int = 0
@@ -144,9 +142,7 @@ private fun closeApp(){
         if (answerText.text == correctAnswer)
             point++
         println("POINTS: $point")
-
     }
-
      private fun quit() {
          exitProcess(-1)
      }
