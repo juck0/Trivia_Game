@@ -25,9 +25,10 @@
     <TextView
         android:id="@+id/emoji"
         android:layout_width="350dp"
-        android:layout_height="130dp"
+        android:layout_height="200dp"
         android:gravity="center"
-        android:textSize="50sp"
+        android:text="😋"
+        android:textSize="150sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_quiz" />
@@ -35,7 +36,7 @@
     <TextView
         android:id="@+id/text_congratulations"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="280dp"
         android:gravity="center"
         android:text="congratulations"
@@ -46,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emoji"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.483" />
 
     <TextView
         android:id="@+id/text_score"

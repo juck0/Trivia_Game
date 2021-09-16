@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Trivia Game</string>
+    <string name="head_line">NOT just Quiz\n \n it\'s your nightmare 😈</string>
+    <string name="question">Question</string>
+    <string name="_1_10">1/10</string>
+    <string name="your_question_will_be_here">Your question will be here</string>
+    <string name="first_question">first question</string>
+    <string name="second_question">second question</string>
+    <string name="third_question">third question</string>
+    <string name="fourth_question">fourth question</string>
+    <string name="next">Next</string>
+    <string name="quit_quiz">Quit Quiz</string>
 </resources>

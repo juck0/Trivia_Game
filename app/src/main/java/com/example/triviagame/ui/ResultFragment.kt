@@ -1,6 +1,8 @@
 import android.view.LayoutInflater
 import com.example.triviagame.R
 import com.example.triviagame.data.Constants
+import com.example.triviagame.data.Constants.LOSE_EMOJI
+import com.example.triviagame.data.Constants.WIN_EMOJI
 import com.example.triviagame.databinding.FragmentResultBinding
 import com.example.triviagame.ui.BaseFragment
 import com.example.triviagame.ui.HomeFragment
@@ -26,9 +28,12 @@ class ResultFragment: BaseFragment<FragmentResultBinding>() {
         if (points > 5){
             binding?.textCongratulations?.text = Constants.WIN_TEXT
             binding?.textScoreNum?.text = points.toString()
+            binding?.emoji?.text = WIN_EMOJI.toString()
         } else{
             binding?.textCongratulations?.text =Constants.LOSE_TEXT
             binding?.textScoreNum?.text = points.toString()
+            binding?.emoji?.text = LOSE_EMOJI.toString()
+
         }
     }
     private fun retakeQuiz() {
